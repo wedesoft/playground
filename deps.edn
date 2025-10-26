@@ -1,0 +1,4 @@
+{
+ :deps {org.scicloj/noj {:mvn/version "2-beta18"}
+        clj-python/libpython-clj {:mvn/version "2.026"}}
+ }

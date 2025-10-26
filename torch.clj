@@ -2,7 +2,6 @@
 ; (py/initialize! :python-executable "/home/jan/venv/bin/python")
 (require '[libpython-clj2.require :refer (require-python)])
 
-(require-python '[tqdm :refer (tqdm)])
 (require-python '[numpy :as np])
 (require-python '[torch])
 (require-python '[torch.nn :as nn])
